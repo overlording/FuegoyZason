@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CristianEdgarPacompiaQuispe</title>
+
+    <!--SLIDER-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="back">
+                <div class="menu container">
+                    <a href="index.html" class="logo"><img src="img/lgoo.png" alt="" width="85px"; height="112px"></a>
+                    <input type="checkbox" id="menu" />
+                    <label for="menu">
+                        <img src="img/menu.png" class="menu-icono" alt="">
+                    </label>
+                    <nav class="navbar">
+                        <ul>
+                            <li><a href="index.html">INICIO</a></li>
+                            <li><a href="servicio/index.html">CONTACTANOS</a></li>
+                            <li><a href="nosotros/index.html">NOSOTROS</a></li>
+                            <li><a href="eventos/index.html">EVENTOS</a></li>
+                            <li><a href="ofertas/index.html">OFERTAS</a></li>
+                            <li><a href="ubicacion/index.html">UBICACION</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+        <!--slider-->
+        <div id="slide-wrap">
+            <section class="slider">
+                <ul class="slider1">
+                    <li><img src="img/1.jpg" alt=""></li>
+                    <li><img src="img/3.jpg" alt=""></li>
+                    <li><img src="img/4.jpg" alt=""></li>
+                    <li><img src="img/5.jpg" alt=""></li>
+                    <li><img src="img/6.jpg" alt=""></li>
+                    <li><img src="img/7.jpg" alt=""></li>
+                </ul>
+            </section>
+        </div>
+
+        <script>
+            $(document).ready(function(){
+                $('.slider1').bxSlider({
+                    mode: 'fade',
+                });
+                $('.slider2').bxSlider({
+                    mode: 'fade',
+                });
+                $('.slider3').bxSlider({
+                    mode: 'fade',
+                });
+                $('.slider4').bxSlider({
+                    mode: 'fade',
+                });
+                $('.slider5').bxSlider({
+                    mode: 'fade',
+                });
+                $('.slider6').bxSlider({
+                    mode: 'fade',
+                });
+            });
+        </script>
+
+
+        <a href="#"><center><img src="img/2.jpg" alt=""; height="100%"; width="100%"></center></a> 
+        <a href="#"><center><img src="img/3.jpg" alt=""; height="100%"; width="100%"></center></a>
+        <a href="#"><center><img src="img/4.jpg" alt=""; height="100%"; width="100%"></center></a>
+        <a href="#"><center><img src="img/5.jpg" alt=""; height="100%"; width="100%"></center></a>
+        <a href="#"><center><img src="img/6.jpg" alt=""; height="100%"; width="100%"></center></a>
+        <a href="#"><center><img src="img/7.jpg" alt=""; height="100%"; width="100%"></center></a>
+    </body>
+</html>
